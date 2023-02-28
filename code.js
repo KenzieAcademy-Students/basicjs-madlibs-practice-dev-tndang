@@ -4,12 +4,12 @@
 // Create your own Madlibs story!
 
 let adjective = prompt("Enter an adjective");
-let singWeapon = prompt("Enter a weapon (singular)");
-let ingVerb = prompt("Enter a verb ending with -ing")
+let singWeapon = prompt("Enter a common bladed weapon (singular)");
+let ingVerb = prompt("Enter an adjective that ends with -ing")
 let item = prompt("Enter an item needed for survival (plural)")
 let food = prompt("Name a food that could fit easily in the hand (plural)")
 
-document.write("Here is a story for you!<br>");
+document.write("Here is a story for you!<br><br>");
 document.write(
   "The "
   + adjective
@@ -17,7 +17,7 @@ document.write(
   + singWeapon
   + " of "
   + ingVerb
-  + ". "
+  + ". <br>"
   + "Inside this shop were some racks of old dusty "
   + item
   + " and "
